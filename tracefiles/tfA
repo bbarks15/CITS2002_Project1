@@ -1,0 +1,5 @@
+# one process, no I/O, process exits even before 1st time quantum expires.
+#
+process 1 10 {
+    exit        40
+}
